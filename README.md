@@ -19,11 +19,12 @@ Specify baskets, number of buckets (hash_buckets), support threshold & the range
     mod_n = 11
 
 Run PCY: 
+
     pcy(baskets, hash_buckets, support, items_range, hash_fn_pass1, mod_n)
 
 
 Run only pass 2 of PCY:
- 
+
 
     item_pairs_1 = [(1, 2), (2, 6), (4, 6), (5, 6), (1, 4), (3, 4), (2, 4), (3, 5)]
     hash_buckets = 9
